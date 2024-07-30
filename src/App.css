@@ -10,10 +10,15 @@ background-repeat: repeat;
   padding: 10px;
   font-size: 18px;
   margin-right: 10px;
-  background-color: blueviolet;
+  background-color:white;;
+  border: solid greenyellow
+}
+textarea::placeholder{
   color: white;
 }
-
+.form input ::placeholder{
+  color: white;
+}
 button {
   padding: 10px 20px;
   font-size: 18px;
