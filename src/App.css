@@ -35,4 +35,17 @@ button {
   color: white;
 }
 
+.todo-list-container {
+  max-height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: blue;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
 
