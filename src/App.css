@@ -1,17 +1,26 @@
 .App {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/public/tasks.jpg);
+background-position: unset;
+background-repeat: repeat;
 }
 
 .input {
   padding: 10px;
   font-size: 18px;
   margin-right: 10px;
+  background-color: blueviolet;
+  color: white;
 }
 
 button {
   padding: 10px 20px;
   font-size: 18px;
+  border-radius: 5px;
+  box-shadow: blue 10px;
+  background-color: greenyellow;
+  border-color: aqua ;
 }
 
 .todo {
@@ -23,4 +32,7 @@ button {
   background: #f4f4f4;
   border-radius: 4px;
   background-color: red;
+  color: white;
 }
+
+
