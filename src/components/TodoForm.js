@@ -7,8 +7,7 @@ function TodoForm({ addTodo }) {
     e.preventDefault();
     if (!value) return;
     addTodo({
-      text: value,
-      isCompleted: false,
+      text: value
     });
     setValue('');
   };
@@ -16,12 +15,12 @@ function TodoForm({ addTodo }) {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        className='form'
         type="text"
-        className="input"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <button type="submit">Add</button>
+      <button type="submit">Add Todo</button>
     </form>
   );
 }

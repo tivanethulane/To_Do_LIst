@@ -6,7 +6,7 @@ background-position: unset;
 background-repeat: repeat;
 }
 
-.input {
+.form {
   padding: 10px;
   font-size: 18px;
   margin-right: 10px;
@@ -41,11 +41,26 @@ button {
   border: 1px solid #ccc;
   padding: 10px;
   background-color: blue;
+  margin-top: 10%;
 }
 
 .todo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
 }
 
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.email-list {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.email-list div {
+  margin-bottom: 5px;
+}
