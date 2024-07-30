@@ -15,12 +15,13 @@ function TodoForm({ addTodo }) {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        placeholder="write a task To-Be-Done"
         className='form'
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <button type="submit">Add Todo</button>
+      <button type="submit">Add </button>
     </form>
   );
 }
